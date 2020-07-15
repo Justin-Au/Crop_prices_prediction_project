@@ -4,7 +4,7 @@ This project aims to predict the price of cabbage in Taiwan's agricultural produ
  
 ## Background
 
-**Language:** R
+**Language:** R  
 **Libraries:** timeSeries, fBasics, forecast, tseries
  
 
