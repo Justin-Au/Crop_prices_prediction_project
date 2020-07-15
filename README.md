@@ -4,12 +4,17 @@ This project aims to predict the price of cabbage in Taiwan's agricultural produ
  
 ## Background
 
-Language: R
-Libraries: timeSeries, fBasics, forecast, tseries
+**Language:** R
+**Libraries:** timeSeries, fBasics, forecast, tseries
  
 
 ## Data Cleaning
 
+
 ## Modelling
+
+1. Holt-Winters
+
+2. ARIMA
 
 ## Results
