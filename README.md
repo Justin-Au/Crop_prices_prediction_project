@@ -22,7 +22,7 @@ This project aims to predict the price of cabbage in Taiwan's agricultural produ
 
 ## Modelling
 
-1. Holt-Winters  
+**1. Holt-Winters**  
 Since the the variation in the trend-cycle appears to be proportional to the level of the time series, we will use multiplicative decomposition here (https://otexts.com/fpp2/components.html).
 The prediction along the training set perfoms quite well. However, the predicition along the testing set seems become inaccurate especially the bottom.
 The RMSE for the testing set is **14.284**. We need a more robust model.
@@ -30,7 +30,7 @@ The RMSE for the testing set is **14.284**. We need a more robust model.
 ![alt text](https://github.com/auweiting/Crop_prices_prediction/blob/master/HW.png "Holt-Winters Prediction (multiplicative)")
 
 
-2. ARIMA  
+**2. ARIMA**  
 We use autocorrelation function (ACF) and partial autocorrelation function (PACF) to observe the correlation between observations of the time series separated by k time units.
 
 ![alt text](https://github.com/auweiting/Crop_prices_prediction/blob/master/acf_pacf.png "ACF & PACF")
