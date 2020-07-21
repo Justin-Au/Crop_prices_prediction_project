@@ -35,7 +35,7 @@ We use autocorrelation function (ACF) and partial autocorrelation function (PACF
 
 ![alt text](https://github.com/auweiting/Crop_prices_prediction/blob/master/acf_pacf.png "ACF & PACF")
 
-ARIMA(2,1,2)(1,1,1) is chosen as the optimal model after several attempts on trying different parameters. The Akaike Information Critera (AIC) score of this model is **1184.57**, while the RMSE is **6.604404**.
+ARIMA(2,1,2)(1,1,1) is chosen as the optimal model after several attempts on trying different parameters. The Akaike Information Critera (AIC) score of this model is **1184.57**, while the RMSE is **6.604**.
 
 
 ![alt text](https://github.com/auweiting/Crop_prices_prediction/blob/master/forecast.png "ARIMA")
