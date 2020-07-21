@@ -30,6 +30,12 @@ The RMSE for the testing set is **14.284**. We need a more robust model.
 ![alt text](https://github.com/auweiting/Crop_prices_prediction/blob/master/HW.png "Holt-Winters Prediction (multiplicative)")
 
 
-2. ARIMA
+2. ARIMA  
+We use autocorrelation function (ACF) and partial autocorrelation function (PACF) to observe the correlation between observations of the time series separated by k time units.
 
-## Results
+![alt text](https://github.com/auweiting/Crop_prices_prediction/blob/master/acf_pacf.png "ACF & PACF")
+
+ARIMA(2,1,2)(1,1,1) is chosen as the optimal model after several attempts on trying different parameters. The Akaike Information Critera (AIC) score of this model is **1184.57**, while the RMSE is **6.604404**.
+
+![alt text](https://github.com/auweiting/Crop_prices_prediction/blob/master/arima.png "ARIMA")
+
