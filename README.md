@@ -5,7 +5,7 @@ This project aims to predict the price of cabbage in Taiwan's agricultural produ
 ## Objective
 - Predict the price of cabbage using Holt-Winters and ARIMA model
 - Decompose the price data into trend, seasonal and remainder/random
-- Evaluate the result base on root mean square error (RMSE)
+- Evaluate the result base on root-mean-square error (RMSE)
 
 ## Background
 
